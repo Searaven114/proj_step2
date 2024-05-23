@@ -32,8 +32,8 @@
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="150dp"
-        android:layout_height="56dp"
+        android:layout_width="195dp"
+        android:layout_height="53dp"
         android:background="@drawable/rounded_button"
         android:backgroundTint="#DE3BFF"
         android:clickable="true"
@@ -42,7 +42,7 @@
         android:text="@string/login_text"
         android:textColor="#FFFDFE"
         android:textColorLink="#4CAF50"
-        android:textSize="22sp"
+        android:textSize="24sp"
         app:backgroundTint="@color/button_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
