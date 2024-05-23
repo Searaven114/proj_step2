@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.HashMap;
-
+//Bu dosyan düzeni ne!!!!!
 public class LoginActivity extends AppCompatActivity {
 
     @Override
