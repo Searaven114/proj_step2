@@ -1,7 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:alpha="1"
     android:background="@drawable/main_background_gradient">
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="64dp"
+        android:layout_height="31dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#FEFEFE"
+        android:ems="10"
+        android:paddingLeft="12dp"
+        android:inputType="text"
+        android:hint="username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginText" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#FEFEFE"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:paddingLeft="20dp"
+        android:text="Go Back"
+        android:textSize="15sp"
+        android:backgroundTint="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:text="Sign in"
+        android:textSize="15sp"
+        android:paddingLeft="20dp"
+        android:backgroundTint="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.057" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

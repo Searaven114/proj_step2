@@ -6,4 +6,10 @@
     <color name="coral">#FF6F61</color>
     <color name="light_cyan">#00A5CF</color>
     <color name="button_color">#049C9C</color>
+
+    <!-- *************************************************** -->
+
+    <color name="primaryColor">#00574B</color>
+    <color name="primaryLightColor">#48a999</color>
+    <color name="secondaryColor">#ffcc00</color>
 </resources>
